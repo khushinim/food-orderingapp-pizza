@@ -1,8 +1,10 @@
 export default function MenuItem() {
     return (
-        
-        <div className="bg-black bg-opacity-50 p-4 rounded-lg text-center hover:bg-lime-600">
-          <img src="/pizza1.png" alt="pizza"/>
+       // bg-black bg-opacity-50 bg-lime-600 
+        <div className="bg-gray-200 p-4 rounded-lg text-center group hover:bg-lime-600 hover:shadow-xl hover:shadow-black/75 transition-all">
+          <div className="text-center">
+            <img src="/pizza1.png" className="max-w-auto max-h-25 block mx-auto" alt="pizza"/>
+          </div>
           <h4 className="font-semibold text-xl my-3">
             Pepperoni Pizza</h4>
           <p className="text-black text-sm">
